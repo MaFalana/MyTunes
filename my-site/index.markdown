@@ -4,3 +4,4 @@
 
 layout: home
 ---
+<iframe src="index.php"></iframe>
