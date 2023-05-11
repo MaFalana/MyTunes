@@ -1,0 +1,908 @@
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,500,600');
+
+*
+{
+	font-family: Montserrat;
+	background: #f8f9fb;
+	border: 1px none;
+	height: 900px;
+	mix-blend-mode: normal;
+	overflow: hidden;
+	overflow-x: hidden;
+	position: relative;
+	width: 1440px;
+}
+
+/*Navigation Bar*/
+
+.nav
+{
+	background-color: transparent;
+	height: 98px;
+	left: 260px;
+	position: absolute;
+	top: 0px;
+	width: 1180px;
+}
+
+.nav-cell
+{
+	background-color: #F9F9FB;
+	border: 1px none;
+	height: 98px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: auto;
+	top: 0px;
+	width: 1180px;
+}
+
+.nav-linkCell
+{
+	background-color: transparent;
+	height: 26px;
+	left: 42px;
+	position: relative;
+	top: 36px;
+	width: 292px;
+}
+
+.nav-linkText
+{
+	background-color: transparent;
+	height: auto;
+	left: 0px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.nav-linkText2
+{
+	background-color: transparent;
+	height: auto;
+	left: 81px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.nav-linkText3
+{
+	background-color: transparent;
+	height: auto;
+	left: 175px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.nav-linkText4
+{
+	background-color: transparent;
+	height: auto;
+	left: 251px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.nav-searchCell
+{
+	background-color: rgba(239,239,244,1.00);
+	border: 1px none;
+	border-radius: 16px;
+	height: 50px;
+	left: 300px;
+	mix-blend-mode: normal;
+	position: relative;
+	top: 0px;
+	width: 400px;
+}
+
+.nav-searchBar
+{
+	background-color: transparent;
+	height: auto;
+	left: 24px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: relative;
+	text-align: center;
+	top: 14px;
+	white-space: nowrap;
+	width: auto;
+}
+
+.nav-searchBtn
+{
+	background-color: transparent;
+	background: url('assets/vector2.svg');
+	height: 20px;
+	left: 657px;
+	position: absolute;
+	top: 15px;
+	width: 20px;
+}
+
+.nav-dropdown
+{
+	background-color: rgba(239,239,244,1.00);
+	border: 1px none;
+	border-radius: 16px;
+	height: 50px;
+	left: 750px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 0px;
+	width: 100px;
+	text-align: center;
+	letter-spacing: 0px;
+	line-height: 22px;
+	white-space: nowrap;
+}
+
+.nav-profileCell
+{
+	background-color: transparent;
+	height: 42px;
+	left: 961px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 28px;
+	width: 179px;
+	cursor: pointer;
+	text-overflow: ellipsis;
+}
+
+.nav-profilePic
+{
+	background-color: transparent;
+	height: 42px;
+	left: 0px;
+	mix-blend-mode: normal;
+	object-fit: cover;
+	position: absolute;
+	top: 0px;
+	width: 42px;
+	clip-path: circle();
+}
+
+.nav-profileName
+{
+	background-color: transparent;
+	height: auto;
+	left: 52px;
+	letter-spacing:  0px;
+	line-height: normal;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 11px;
+	width: auto;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	color: rgba(36,36,46,1);	
+}
+
+
+/*Side Menu (Left)*/
+
+.logo-cell
+{
+	background-color: transparent;
+	height: 24px;
+	left: 61px;
+	position: absolute;
+	top: 20px;
+	width: 133px;
+	cursor: pointer;
+}
+
+.logo-text
+{
+	background-color: transparent;
+	color: rgba(67,67,238,1);
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	height: 25px;
+	left: 32px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 1px;
+	white-space: nowrap;
+	width: auto;
+}
+
+.logo-background
+{
+	background-color: rgba(67,67,237,1);
+	border: 1px none;
+	border-radius: 12px;
+	height: 24px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position:auto;
+	top: 0px;
+	width: 24px;
+	
+}
+
+.logo-pic
+{
+	background-color: transparent;
+	height: 12px;
+	left: 5px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 6px;
+	width: 12px;
+}
+
+.activePage
+{
+	background-color: rgba(239,239,244,1);
+	border: 1px none;
+	height: 46px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 0px;
+	width: 260px;
+}
+
+.activePage2
+{
+	background-color: rgba(67,67,238,1);
+	border: 1px none;
+	height: 46px;
+	left: 254px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 0px;
+	width: 6px;
+}
+
+.activeTitle
+{	
+	background-color: transparent;
+	height: auto;
+	left: 40px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: relative;
+	text-align: left;
+	top: 19px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(67,67,238,1);
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;	
+}
+
+.sideMenu-cell
+{
+	background-color: white;
+	border: 1px none;
+	height: 900px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 0px;
+	width: 260px;
+}
+
+.menu-cell
+{
+	background-color: transparent;
+	height: 255px;
+	left: 42px;
+	position: relative;
+	top: 40px;
+	width: 262px;
+}
+
+.header
+{
+	background-color: transparent;
+	height: auto;
+	left: 0px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 40px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(36,36,46,1);
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.subset
+{
+	background-color: transparent;
+	height: 46px;
+	left: 0px;
+	position: relative;
+	top: 74px;
+	width: 220px;
+}
+
+.subset:hover
+{
+	background-color: rgba(239,239,244,1);
+	border: 1px none;
+	height: 46px;
+	left: 0px;
+	position: relative;
+	top: 74px;
+	width: auto;
+	cursor: pointer;
+}
+
+
+.subsetTitle
+{
+	background-color: transparent;
+	height: auto;
+	left: 40px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: relative;
+	text-align: left;
+	top: 19px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	display: block;	
+}
+
+.subsetTitle:hover
+{	
+	color: rgba(67,67,238,1);
+	font-weight: 600;
+}
+
+.subsetIcon
+{
+	background-color: transparent;
+	height: 16px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: relative;
+	top: 0px;
+	width: 14px;
+}
+
+
+
+/*Side Menu (Right)*/
+.rightMenu-cell
+{
+	background-color: white;
+	border: 1px none;
+	border-radius: 24px 0px 0px 0px;
+	height: 802px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: relative;
+	top: 0px;
+	width: 392px;
+}
+
+.player-cell
+{
+	background-color: transparent;
+	height: 802px;
+	left: 1048px;
+	position: absolute;
+	top: 98px;
+	width: 392px;
+}
+
+.sectionList
+{
+	overflow: auto;
+	background-color: transparent;
+	height: 334px;
+	left: 0px;
+	position: absolute;
+	top: 32px;
+	width: 396px;
+}
+
+.sectionHeader
+{
+	background-color: transparent;
+	height: auto;
+	left: 24px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(36,36,46,1);
+	font-size: 18px;
+	font-weight: 600;
+	font-style: normal;
+	
+}
+
+.section
+{
+	background-color: transparent;
+	height: 74px;
+	left: 0px;
+	position: relative;
+	top: 38px;
+	width: 396px;
+}
+
+.section:hover
+{
+	background-color: rgba(239,239,244,1);
+	border: 1px none;
+	height: 74px;
+	left: 0px;
+	position: relative;
+	top: 38px;
+	width: 396px;
+	cursor: pointer;
+}
+
+.sectionRanking
+{
+	background-color: transparent;
+	height: auto;
+	left: 24px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 26px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(120,120,135,1);
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+.sectionIcon
+{
+	background-color: transparent;
+	height: 50px;
+	left: 58px;
+	position: absolute;
+	text-align: left;
+	top: 12px;
+	width: 50px;
+	
+}
+
+
+.sectionName
+{
+	background-color: transparent;
+	height: 40px;
+	left: 116px;
+	position: absolute;
+	top: 17px;
+	width: 90px;
+}
+
+
+.sectionTitle
+{
+	background-color: transparent;
+	height: auto;
+	left: 0px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(36,36,46,1);
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	text-overflow: ellipsis;
+}
+
+
+.sectionArtist
+{
+	background-color: transparent;
+	height: auto;
+	left: 0px;
+	letter-spacing: 0px;
+	line-height: normal;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 24px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	text-overflow: ellipsis;
+	
+}
+
+.divider
+{
+	background-color: transparent;
+	height: 1px;
+	left: 24px;
+	position: absolute;
+	top: 373px;
+	width: 326px;
+}
+
+.musicPlayer
+{
+	background-color: transparent;
+	height: 383px;
+	left: 48px;
+	position: absolute;
+	top: 393px;
+	width: 284px;
+}
+
+.musicHeader
+{
+	background-color: transparent;
+	height: auto;
+	left: 71px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(36,36,46,1);
+	font-size: 18px;
+	font-weight: 500;
+	font-style: normal;
+	text-overflow: ellipsis;
+}
+
+.musicPic
+{
+	background-color: #d6d6d6;
+	border: 1px none;
+	border-radius: 18px;
+	height: 120px;
+	left: 39px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 38px;
+	width: 200px;
+}
+
+.musicTitle
+{
+	background-color: transparent;
+	height: 24px;
+	left: 76px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: center;
+	top: 169px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(36,36,46,1);
+	font-size: 24px;
+	font-weight: 700;
+	font-style: normal;
+	text-overflow: ellipsis;
+}
+
+.musicAuthor
+{
+	background-color: transparent;
+	height: auto;
+	left: 124px;
+	letter-spacing: 0px;
+	line-height: normal;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: center;
+	top: 202px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	text-overflow: ellipsis;
+}
+
+
+
+
+/* Librarty Middle*/
+
+.libraryDiv
+{
+	background-color: transparent;
+	height: 864px;
+	left: 281px;
+	position: absolute;
+	top: 140px;
+	width: 748px;
+}
+
+.libraryCounter
+{
+	background-color: transparent;
+	height: auto;
+	left: 35px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 89px;
+	white-space: nowrap;
+	width: auto;
+	
+	color: rgba(77,77,86,1);
+	font-size: 18px;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.libraryCell
+{
+	background-color: white;
+	border: 1px none;
+	border-radius: 20px;
+	height: 807px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 57px;
+	width: 746px;
+	overflow: auto;
+}
+
+/*Song, Playlist, Album Search Results*/
+
+
+.searchHeader
+{
+	background-color: transparent;
+	height: auto;
+	left: 302px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 139px;
+	white-space: nowrap;
+	width: auto;
+	
+	font-size: 24px;
+	font-weight: 600;
+	font-style:normal;
+	color: rgba(67,67,238,1);
+}
+
+.searchSection
+{
+	background-color: transparent;
+	height: 700px;
+	left: 279px;
+	width: 800px;
+	top: 156px;
+	overflow: auto;
+}
+
+.result-div
+{
+	background-color: transparent;
+	height: 103px;
+	left: auto;
+	position: relative;
+	top: auto;
+	width: 746px;
+}
+
+.result-cell
+{
+	background-color: white;
+	border: 1px none;
+	border-radius: 16px;
+	height: 103px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: relative;
+	top: 0px;
+	width: 740px;
+}
+
+.result-cell:hover
+{
+	background-color: rgba(239,239,244,1);
+	border: 1px none;
+	border-radius: 16px;
+	height: 103px;
+	left: 0px;
+	mix-blend-mode: normal;
+	position: relative;
+	top: 0px;
+	width: 740px;
+}
+
+.result-icon
+{
+	background-color: transparent;
+	height: 67px;
+	left: 18px; /*might change*/
+	position: absolute;
+	top: 17px;
+	width: 67px;
+}
+
+.result-title
+{
+	background-color: transparent;
+	height: auto;
+	left: 113px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 27px;
+	white-space: nowrap;
+	width: auto;
+	font-weight: 800;
+	font-style:normal;
+	color: rgba(36,36,46,1);
+}
+
+.result-subtitle
+{
+	background-color: transparent;
+	height: auto;
+	left: 113px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 52px;
+	white-space: nowrap;
+	width: auto;
+	font-size: 13px;
+	font-weight: 400;
+	font-style:normal;
+	color: rgba(36,36,46,1);
+}
+
+.result-runtime
+{
+	background-color: transparent;
+	height: auto;
+	left: 500px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	mix-blend-mode: normal;
+	position: absolute;
+	text-align: left;
+	top: 42px;
+	white-space: nowrap;
+	width: auto;
+}
+
+.likeBtn
+{
+	background-color: transparent;
+	background: url('assets/ActiveHeart.svg');
+	height: 24px;
+	left: 646px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 41px;
+	width: 28px;
+}
+
+.unlikeBtn
+{
+	background-color: transparent;
+	background: url('assets/inActiveHeart.svg');
+	height: 24px;
+	left: 646px;
+	mix-blend-mode: normal;
+	position: absolute;
+	top: 41px;
+	width: 28px;
+}
+
+/*Artist Search Results*/
